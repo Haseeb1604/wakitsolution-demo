@@ -1,0 +1,114 @@
+@font-face {
+    font-family: CalibriBold;
+    src: url(Calibri\ Bold.TTF);
+}
+
+@font-face{
+    font-family: CalibriLight;
+    src: url(Calibri\ Light.ttf);
+}
+
+.md-padding {
+    padding-top: 6px;
+    padding-bottom: 20px;
+}
+
+.title-box{
+    background-color: lightgray;
+    padding: 12px;
+    width: 80%;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: CalibriBold;
+    font-weight: 800;
+}
+
+.list-box{
+    font-size: 20px;
+    font-family: CalibriLight;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+@media (max-width: 992px){
+    .title-box{
+        width: 90%;
+    }
+    .title-box h2{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767px){
+    .title-box h2{
+        font-size: 22px;
+    }
+    .list-box{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 616px){
+    .title-box h2{
+        font-size: 20px;
+    }
+    .list-box{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 575px){
+    .title-box{
+        width: 98%;
+    }
+    .title-box h2{
+        font-size: 32px;
+    }
+    .list-box{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 408px){
+    .title-box h2{
+        font-size: 28px;
+    }
+    .list-box{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 375px){
+    .title-box h2{
+        font-size: 23px;
+    }
+    .list-box{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px){
+    .title-box h2{
+        font-size: 20px;
+    }
+    .list-box{
+        font-size: 14px;
+    }
+}
+
+
+.list-box li{
+    list-style: none;
+}
+
+.list-box li::before{
+    content: "\00BB  ";
+}
+
+.nested-list li{
+    list-style: circle;
+}
+
+.nested-list li::before{
+    content: none;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Owl-carousel Cards Slider | CodingNepal</title> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+  background: #f2f2f2;
+}
+.slider{
+  max-width: 1000px;
+  display: flex;
+}
+.slider .card{
+  flex: 1;
+  /* margin: 0 1px; */
+  background: #fff;
+  /* height: 200px; */
+  width: 200px;
+}
+.owl-dots {
+    text-align: center;
+    width: 100%;
+}
+.owl-dot {
+    border-radius: 50px;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: rgba(250, 50, 50, 0.5)!important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.owl-dot.active {
+    background: rgb(250, 30, 30)!important;
+    outline: none;
+}
+/* .slider .card .img{
+  height: 90%;
+  width: 90%;
+} */
+/*
+.slider .card .img img{
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+} */
+
+
+    </style>
+  </head>
+  <body>
+    <div class="slider owl-carousel">
+    <div class="card">
+      <div class="img">
+        <img src="./Clients/client-1.png" alt="">
+      </div>
+    </div>
+    <div class="card">
+      <div class="img">
+        <img src="./Clients/client-2.png" alt="">
+      </div>
+    </div>
+    <div class="card">
+      <div class="img">
+        <img src="./Clients/client-3.png" alt="">
+      </div>
+    </div>
+    <div class="card">
+      <div class="img">
+        <img src="./Clients/client-4.png" alt="">
+      </div>
+    </div>
+    <div class="card">
+      <div class="img">
+        <img src="./Clients/client-5.png" alt="">
+      </div>
+    </div>
+</div>
+<script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        items:5,
+        margin: 10,
+        loop:true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+        responsiveClass:true,
+        responsive:{
+            600:{
+                items:3,
+            },
+            1000:{
+                items:5,
+            }
+        }
+      });
+    </script>
+
+  </body>
+</html>
+

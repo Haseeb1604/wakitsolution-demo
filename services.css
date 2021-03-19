@@ -1,0 +1,94 @@
+@font-face {
+    font-family: CalibriBold;
+    src: url(Calibri\ Bold.TTF);
+}
+
+@font-face{
+    font-family: CalibriLight;
+    src: url(Calibri\ Light.ttf);
+}
+
+.service-box{
+    /* text-align: center; */
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: none
+}
+
+.heading{
+    font-weight: 600;
+    font-family: CalibriBold;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service-para{
+    margin-top: 0;
+    padding: 0;
+    font-family: CalibriLight;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 25px;
+    text-align: justify;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-detail h5{
+    font-weight: 600;
+    font-family: CalibriBold;
+    font-size: 24px;
+
+}
+
+.service-detail li{
+    font-size: 18px;
+    font-family: CalibriLight;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.service-img{
+    width: 90% !important;
+    border-radius: 5px;
+    height: 90%;
+    margin-left: 10px;
+}
+
+@media (max-width: 425px){
+    .heading{
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+    .service-para{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .service-detail h5{
+        font-size: 18px;
+    }
+    .service-detail li{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px){
+    .service-box{
+        width: 98% !important;
+        margin: 0 auto 20px;
+    }
+    .service-detail h5{
+        font-size: 20px;
+    }
+    .service-detail li{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 990px){
+    .service-img{
+        width: auto;
+        height: auto;
+    }
+}

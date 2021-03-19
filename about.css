@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: CalibriBold;
+    src: url(Calibri\ Bold.TTF);
+}
+
+@font-face{
+    font-family: CalibriLight;
+    src: url(Calibri\ Light.ttf);
+}
+
+body{
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #474747;
+    background-color: #f8f9fa;
+}
+
+/* CEO Message Starts */
+.card-box{
+    text-align: center;
+    margin-bottom: 30px;
+    /* overflow: hidden; */
+    border: none;
+    width: auto;
+}
+
+.heading{
+    font-weight: 800;
+    font-family: CalibriBold;
+    font-size: 24px;
+    text-shadow: 0px 2px 1px white, 0px 3px 2px gray;
+}
+
+.ceo-message{
+    margin-top: 0;
+    padding: 0;
+    font-family: CalibriLight;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: justify;
+    width: 100%;
+    /* margin-left: 10px; */
+    margin-right: auto;
+}
+
+.ceo-img{
+    width: 300px !important;
+    border-radius: 5px;
+    height: 270px !important;
+    /* margin-left: 10px; */
+}
+
+
+/* Our Team Section */
+
+.light-bg-gray {
+    background: #f8f9fa;
+}
+
+.padding-top{
+    padding-top: 200px;
+}
+
+.md-padding {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.title .title-line {
+    background: red;
+    width: 50px;
+    height: 4px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-family: 'Lato', sans-serif;
+    color: #474747;
+    font-weight: 600;
+}
+
+.team-box a {
+    text-decoration: none;
+    outline: none;
+    color: #474747;
+}
+
+.team-box {
+    text-align: center;
+    margin-bottom: 30px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #f3f2f2;
+    box-shadow: 7px 7px 21px #cacaca, -7px -7px 21px #ffffff;
+    border: none
+}
+
+.team-box img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40vh;
+}
+
+.team-box h5{
+    font-weight: 900;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    /* text-shadow: 0px 3px 2px gray; */
+}
+
+.team-box h6{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    /* text-shadow: 0px 1px 1px white, 0px 2px 1px gray;    */
+}
+
+.fb{
+    color: #3b5998;
+}
+
+.tw{
+    color: #1DA1F2;
+}
+
+.in{
+    color: #833AB4;
+}
+
+.gm{
+    color:#BB001B;
+}
+
+.ln{
+    color: #183a83;
+}
+
+.gh{
+    color: #131313;
+}
+
+.fb, .tw, .in, .yt, .ln, .gh, .gm{
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+}
+
+.fb:hover, .tw:hover, .in:hover, .yt:hover, .ln:hover, .gh:hover, .gm:hover{
+    transform: scale(1.4);
+}
+
+@media (max-width: 990px){
+    .ceo-message{
+        font-size: 16px;
+        line-height: 30px;
+        margin-left: 90px;
+        width: 90%;
+    }   
+}
+
+@media (max-width: 767px){
+    .ceo-message{
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px){
+    .ceo-message{
+        margin-top: 16px;
+        font-size: 16px;
+    }
+}

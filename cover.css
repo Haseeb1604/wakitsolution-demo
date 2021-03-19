@@ -1,0 +1,62 @@
+.coverpage{
+    background: linear-gradient(rgba(60, 60, 60, 0.5), rgba(0,0,0,0.65), rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./header-bg.jpg); background-position: center; 
+    background-size: cover; 
+    height: 82vh;
+}
+.coverpagecontent{
+    width: 60%; 
+    margin: 14% auto 0;
+}
+
+.coverpagecontent h1{
+    text-shadow: 0px 1px 7px rgba(255, 50, 50, 0.5),0px 2px 7px rgba(34, 34, 34, 0.5);
+}
+
+.coverpagecontent p{
+    text-shadow: 0px 1px 7px rgba(255, 50, 50, 0.2),0px 2px 7px rgba(34, 34, 34, 0.5);
+}
+
+@media (max-width: 1024px){
+    .coverpage{
+        height: 76vh;
+    }
+    .coverpagecontent{
+        width: 68%;
+        margin-top: 18% !important;
+    }
+}
+
+@media (max-width: 990px){
+    .coverpage{
+        height: 70vh;
+    }
+    .coverpagecontent{
+        width: 72%;
+        margin-top: 24% !important;
+    }
+}
+
+@media (max-width: 650px){
+    .coverpage{
+        height: 66vh !important;
+    }
+    .coverpagecontent{
+        width: 80%;
+        margin-top: 30% !important;
+    }
+}
+
+@media (max-width: 500px){
+    .coverpage{
+        height: 50vh !important;
+    }
+    .coverpagecontent{
+        width: 100%;
+    }
+    .coverpagecontent h1{
+        font-size: 25px;
+    }
+    .coverpagecontent p{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,47 @@
+.contactus {
+    color: #415170;
+    text-align: center;
+}
+
+.contactus h4 {
+    font-weight: 600;
+    color: black;
+}
+
+.contactus p{
+    color: black;
+    cursor: pointer;
+    margin: 0;
+    transition: all .5s;
+}
+
+.contactus a{
+    color: black;
+    transition: all .6s;
+}
+
+.contactus p:hover,
+.contactus a:hover{
+    color: #c41f1f !important;
+}
+
+.contactheading{
+    font-family: 'Eczar', serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 0px 1px 7px white, 0px 2px 3px black;
+}
+
+.form-control {
+    width: 100%;
+    font-size: 14px;
+    background: 0 0;
+    border: 1px solid rgb(68, 68, 68);
+    color: rgb(0, 0, 0)!important;
+}
+.form-control:focus {
+    box-shadow: none;
+    border-color: rgb(80, 80, 80);
+    background: 0 0;
+    color: rgb(0, 0, 0)!important;
+}
